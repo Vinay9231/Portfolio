@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+.left {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.right{
+    font-size: 25px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  background-color: rgba(0, 0, 255, 0.152);
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover {
+  color: aqua;
+}
+.left {
+  padding: 2px;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 59px 10px;
+  height:100%;
+}
+
+.leftsection {
+  width: 35%;
+  font-size: 35px;
+  padding:8px 40px;
+  margin:96px 22px;
+
+}
+.leftsection span{
+    font-size: 40px;
+}
+button{
+    padding:10px;
+    margin-top:10px;
+    border:2px solid rgba(137, 43, 226, 0.375);
+    border-radius: 4px;
+    background-color: rgba(128, 0, 128, 0.716);
+    color:whitesmoke;
+    cursor:pointer;
+}
+.buttons button:hover{
+    background-color: aqua;
+    color:black;
+}
+.vinay {
+  color: aqua;
+}
+
+.rightsection {
+  width: 35%;
+}
+.rightsection img {
+  width: 80%;
+  margin: 11px;
+}
+.secondsection{
+    
+    height:200px;
+    width: 99%;
+    
+}
+h1{
+    padding:15px 0px;
+    text-align: center;
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+  margin:12px;
+  gap: 43px; 
+  box-sizing: border-box;
+}
+.container .third{
+  font-size: 20px;
+  text-align: center;
+}
+.box{
+  text-align: center;
+  background-color: white;
+  padding:20px;
+  border-radius: 6px;
+  width:30%;
+
+}
+.box p{
+  font-size: 17px;
+  color:black;
+}
+.box img{
+  height:90px;
+
+}
+.btn2{
+  padding:10px;
+  background-color: black;
+ border-radius: 5px;
+ margin-top: 6px;
+font-family: 'Times New Roman', Times, serif;
+}
+.btn2:hover{
+  background-color:rgba(222, 184, 135, 0.486);
+  color:black;
+  font-size: 14px;
+ 
+}
+.third{
+  margin: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.third span{
+  font-size: 25px;
+  text-decoration: underline;
+}
+.third i:hover{
+ cursor: pointer;
+ filter: brightness(0.7);
+}
+.third i{
+  font-size: 25px;
+}
+.footer{
+  background-color:whitesmoke;
+  color: black;
+}
+.footer p{
+  text-align: center;
+}
